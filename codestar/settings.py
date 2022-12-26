@@ -52,6 +52,11 @@ INSTALLED_APPS = [
     'blog',
 ]
 
+SITE_id = 1
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
